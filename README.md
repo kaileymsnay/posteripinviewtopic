@@ -1,23 +1,16 @@
 # Poster IP in Viewtopic
 
-This extension allows Moderators and Administrators to View the IP of the Poster on Viewtopic.  Also changes ips in logs to links to view the info for the ip. Utilizes the Freegeoip api.
-
-[![Build Status](https://github.com/rmcgirr83/posteripinviewtopic/workflows/Tests/badge.svg)](https://github.com/rmcgirr83/posteripinviewtopic/actions)
-
-## Requirements
-* phpBB	3.2 or higher
-* PHP 7.1 or higher
+Allows moderators and administrators to view the IP of the poster when viewing a topic.
 
 ## Installation
-1. Download the repository ZIP and unzip it.
-2. Copy the entire contents from the unzipped folder to `phpBB/ext/rmcgirr83/posteripinviewtopic/`.
-3. Navigate in the ACP to `Customise -> Manage extensions`.
-4. Find Poster IP in Viewtopic under "Disabled Extensions" and click `Enable`.
 
-## Uninstallation
-1. Navigate in the ACP to `Customise -> Manage extensions`.
-2. Click the `Disable` link for Poster IP in Viewtopic.
-3. To permanently uninstall, click `Delete Data`, then delete the `posteripinviewtopic` folder from `phpBB/ext/rmcgirr83/`.
+1. Copy the extension to: `/ext/phpbbmodders/posteripinviewtopic`
+2. In the ACP, go to: **Customise → Manage extensions**
+3. Enable the **Poster IP in Viewtopic** extension
+
+## Automated testing
+[![Tests](https://github.com/phpbbmodders/posteripinviewtopic/actions/workflows/tests.yml/badge.svg)](https://github.com/phpbbmodders/posteripinviewtopic/actions/workflows/tests.yml)
 
 ## License
-[GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
+
+Licensed under the [GNU General Public License v2](license.txt)
