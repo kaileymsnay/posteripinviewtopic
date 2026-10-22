@@ -104,6 +104,6 @@ class main_listener implements EventSubscriberInterface
 	{
 		$row = $event['row'];
 
-		$event->update_subarray('rowset', 'poster_ip', $row['poster_ip']);
+		$event->update_subarray('rowset_data', 'poster_ip', $row['poster_ip']);
 	}
 }
