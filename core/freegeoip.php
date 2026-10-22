@@ -71,7 +71,7 @@ class freegeoip
 	{
 		if ($this->request->is_ajax())
 		{
-			$this->language->add_lang('common', 'rmcgirr83/posteripinviewtopic');
+			$this->language->add_lang('common', 'phpbbmodders/posteripinviewtopic');
 			$this->language->add_lang('mcp');
 
 			$sql= 'SELECT poster_ip, forum_id
